@@ -5,7 +5,6 @@ public class Array_even {
         for (int i=2 ;i <= 200 ;i++){
             if( i % 2 == 0){
                 arr[index]=i;
-                i++;
                 System.out.println(index + "th element :" + arr[index]);
                 index++;
             }
